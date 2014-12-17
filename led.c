@@ -40,11 +40,9 @@ int main(void){
         if(!wiringPiSetup()) printf("Error Occured");
         init();
         printf("http://osandamalith.wordpress.com");
-        while(1){
-                for(i=0;i<17;i++){
-                        shift(SegCode[i]);
-                        delay(500);
-                }
+        while(1) for(i=0;i<17;i++){
+                shift(SegCode[i]);
+                delay(500);
         }
 
         return 0;
