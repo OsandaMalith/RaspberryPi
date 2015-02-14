@@ -9,8 +9,8 @@
 // main.c
 // Runs on LM4F120 or TM4C123
 // Lab4_IO, Inputs from PF4,PF0, output to PF3,PF2,PF1 (LED)
-// Authors: Daniel Valvano, Jonathan Valvano and Ramesh Yerraballi
-// Date: December 28, 2014
+// Authors: Osanda Malith Jayathissa
+// Date: February 14, 2015
 
 // LaunchPad built-in hardware
 // SW1 left switch is negative logic PF4 on the Launchpad
